@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Martian+Mono:wght@100..800&family=Permanent+Marker&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="main_page.css" href="Login_page.html" type="text/css">
+  <title>Car Cult</title>    
+</head>
+<body>
+    <header class="header">
+        <div class="name">
+            <h1>CAR CULT</h1>
+        </div>
+        <div id="container-header-buttons" class="container">
+            <div class="row">
+                <div id="my-account" class="col">
+                    <div id="my-acc-btn" type="button" class="btn btn-secondary">
+                        <a href="Login_page.html">My Account</a>
+                    </div>
+                </div>
+                <div id="menu" class="col">
+                    <a type="button" class="btn btn-secondary" id="menu-btn" href="#">Menu</a>
+                </div>
+                <div id="my-cart" class="col">
+                    <a type="button" class="btn btn-secondary" id="my-cart-btn" href="#">Shopping Cart</a>
+                </div>
+            </div>
+        </div>           
+    </header>
+    
+    <div class="container">
+        <div id="hoodie-1" class="hoodie-1">
+            <img src="hoodie_design1.jpg" alt="" id="hoodie-img">
+            <p class="price">Price: 55€</p>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="book-dropdown">
+                Size:
+            </button>
+            <ul id="hoodie-dropdown" class="dropdown-menu" aria-labelledby="book-dropdown">
+                <li><a href="#" class="dropdown-item">S</a></li>
+                <li><a href="#" class="dropdown-item">M</a></li>
+                <li><a href="#" class="dropdown-item">L</a></li>
+                <li><a href="#" class="dropdown-item">XL</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="car-sticker" class="container">
+        <img id="car-sticker-img" src="sticker.jpg" alt="" class="stickers">
+        <button id="add-to-cart-car-sticker" type="button" class="btn btn-secondary">Add To Cart</button>
+    </div>
+
+    <footer class="footer">
+        <div class="container_2"></div>
+            <div class="social_media">
+                <h1>Social Media:</h1>
+                <div class="instagram">
+                    <li><a href="https://www.instagram.com/coto.detailing/" class="fa fa-instagram" target="_blank" style="font-size:25px"><button></button></a></li>    
+                </div>
+            </div>
+        <div class="contact_email">
+            <p>For any inconvinience:</p>
+            <a style="color: white">....@....com</a>
+        </div>
+    </footer>
+</body>
+</hmtl>

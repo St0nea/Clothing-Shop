@@ -1,0 +1,49 @@
+body {
+  font-family: "Noto Sans Old South Arabian";
+}
+
+.create_acc {
+  width: 500px;
+  height: 600px;
+  border: 3px solid black;
+  border-radius: 2%;
+  margin: auto;
+  padding: 10px;
+  position: relative;
+  top: 180px;
+  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 20px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  text-align: center;
+}
+
+.ime {
+  position: relative;
+  left: 85px;
+}
+
+.priimek {
+  position: relative;
+  left: 65px;
+}
+
+.el_posta {
+  position: relative;
+  left: 89px;
+}
+
+.geslo {
+  position: relative;
+  left: 61px;
+}
+
+.geslo_conf {
+  position: relative;
+  right: 1px;
+}
+
+.btn {
+  position: relative;
+  left: 190px;
+}/*# sourceMappingURL=Create_acc.css.map */
